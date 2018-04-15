@@ -3,7 +3,7 @@ A blog is born
 
 :date: 2018-04-14 14:14
 :modified: 2018-04-14 14:14
-:tags: web, asciidoc, markdown, positive
+:tags: internet, asciidoc, markdown, positive
 :slug: introduction
 
 So I tried to create a blog to rant about stuff. And first thing to rant about
