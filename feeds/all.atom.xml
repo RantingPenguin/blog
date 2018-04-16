@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ranting Penguins Rants</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-15T18:18:00+02:00</updated><entry><title>Twitter banned me before #FirstTweet!</title><link href="/twitter-banned-me-before-firsttweet.html" rel="alternate"></link><published>2018-04-15T12:12:00+02:00</published><updated>2018-04-15T18:18:00+02:00</updated><author><name>Ranting Penguin</name></author><id>tag:None,2018-04-15:/twitter-banned-me-before-firsttweet.html</id><summary type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I wrote my first &lt;a href="introduction.html"&gt;blog post&lt;/a&gt;,
+figured out how I want to manage the blog and got ready to get some visitors.
+Given the content I currently have, presumably not many. I want to spread my
+optimism online everywhere I could so I decided to create a twitter account for …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I wrote my first &lt;a href="introduction.html"&gt;blog post&lt;/a&gt;,
+figured out how I want to manage the blog and got ready to get some visitors.
+Given the content I currently have, presumably not many. I want to spread my
+optimism online everywhere I could so I decided to create a twitter account for
+my new identity.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I setup a name, selected a username, set my profile and got ready to tweet my
+first tweet. And as I started to prepare it, my newly created account was
+blocked because they claim that I look like a spambot.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Yeah, I took some effort to customise my background, to enter some bio, didn&amp;#8217;t
+follow anybody and wanted to tweet something. Right, typical bot behaviour.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I can unblock my account if I enter my cell phone number. Yeah, that is exactly
+what I had in mind when I setup separate identity for my ranting self - to give
+everybody my personal cell number. Especially when even the real self account
+doesn&amp;#8217;t have it entered anywhere.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;I tried resetting password to prove I&amp;#8217;m not a bot and that I&amp;#8217;m reading e-mails,
+but that was not enough, so I guess screw you twitter, no twitter for me and
+I&amp;#8217;ll find some other media.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;EDIT1: On the other hand I gave them a second chance and wrote an angry letter
+to the support.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;EDIT2: I got automatic answer that I should enter my cell number even though I
+wrote in the request that I&amp;#8217;m not willing to do so.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;EDIT3: As I replied to the automatic mail, I got attention of a real person,
+received apology and got my account unlocked, so everything ended well in the
+end. But it looks like like that if you want to have some privacy online, it is
+hard to use popular online tools.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="internet"></category><category term="twitter"></category><category term="happy-end"></category></entry><entry><title>A blog is born</title><link href="/introduction.html" rel="alternate"></link><published>2018-04-14T14:14:00+02:00</published><updated>2018-04-14T14:14:00+02:00</updated><author><name>Ranting Penguin</name></author><id>tag:None,2018-04-14:/introduction.html</id><summary type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;So I tried to create a blog to rant about stuff. And first thing to rant about
+is how to actually create blog. The current hype is to use static page
+generators. There is like a ton of them. Most of them support Markdown, which
+sucks because I prefer &lt;a href="http://asciidoc.org/"&gt;Asciidoc …&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;So I tried to create a blog to rant about stuff. And first thing to rant about
+is how to actually create blog. The current hype is to use static page
+generators. There is like a ton of them. Most of them support Markdown, which
+sucks because I prefer &lt;a href="http://asciidoc.org/"&gt;Asciidoc&lt;/a&gt;. It was here first,
+some claim that it is more feature complete, doesn&amp;#8217;t have tons of dialects and
+syntax is more straight forward (ok the last one is subjective).&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;There is still quite some that claim to support Asciidoc. Most of them claim to
+support just Asciidoctor although I have no idea why they choose just one
+specific implementation. But more importantly, most of it doesn&amp;#8217;t work well
+anyway. So in the end I ended up using &lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;
+which finally works (after trying several generators that claimed to have
+Asciidoc and that didn&amp;#8217;t worked). Pelican supports Asciidoc only through
+plugin, but hey, it works and it was using this or write something on my own.
+Writing it myself wouldn&amp;#8217;t be that hard, but there is too much stuff already
+and it is much better and harder to reuse then to start from scratch again
+(more about it in another post).&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;Common errors I encountered in other generators included claiming Asciidoc
+support and not actually having it. Maybe the worse option was actually having
+some partial support where I ended up with HTML document included in another
+HTML. Including full head and full css generated by Asciidoc. So that quite
+sucked, but luckily I encountered Pelican and it seems to work correctly.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="paragraph"&gt;&lt;p&gt;So my first post actually has some happy ending. Well, I promise the next time
+I will swear more and complain more about how stuff sucks to actually fulfill
+the mission of this blog.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="internet"></category><category term="asciidoc"></category><category term="markdown"></category><category term="happy-end"></category></entry></feed>
