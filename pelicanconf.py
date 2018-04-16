@@ -34,7 +34,7 @@ LINKS = ()
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = ()
+SOCIAL = (('Twitter', 'https://twitter.com/ranting_penguin'),)
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
